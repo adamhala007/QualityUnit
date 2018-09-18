@@ -1,3 +1,17 @@
+@font-face {
+    font-family: RobotoLight;
+    src: url(../fonts/roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: RobotoThin;
+    src: url(../fonts/roboto/Roboto-Thin.ttf);
+}
+
+.roboto{
+    font-family: RobotoThin;
+}
+
 #container{
     /*background: url(../images/background_shapes.svg) no-repeat center;*/
 
@@ -39,6 +53,7 @@
 }
 
 .price-box{
+    display: block;
     margin: 0 10px;
     float: left;
     position: relative;
@@ -48,3 +63,21 @@
 
 }
 
+.price-title{
+    width: 100%;
+    font-size: 1.2em;
+    font-family: RobotoLight;
+    text-align: center;
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    float: left;
+}
+
+.price-icon{
+    clear: both;
+    width: 15%;
+    margin: auto;
+    display: block;
+    padding: 15px;
+}
