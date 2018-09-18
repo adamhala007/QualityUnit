@@ -6,18 +6,45 @@
     position: absolute;
     top: 0;
     left:0;
-    z-index:1000;
+
+
     background-image: linear-gradient(45deg, rgb(35, 57, 70), rgb(54, 78, 90) 35%, rgb(22, 143, 119) 90%);
 }
 
 #container-bg{
-    background: url(../images/background_shapes.svg) no-repeat center;
+    background: transparent url(../images/background_shapes.svg) no-repeat center;
     width: 100%;
     height: 100%;
     opacity: 0.07;
+
+
     position: absolute;
     top: 0;
     left:0;
-    z-index:1000;
+
 
 }
+
+.price-container{
+
+
+    border: 2px solid white;
+    width: 1000px;
+    height: 70%;
+    margin: auto;
+    padding: 20px;
+
+
+
+}
+
+.price-box{
+    margin: 0 10px;
+    float: left;
+    position: relative;
+    width: 30%;
+    height: 90%;
+    background: #ffffff;
+
+}
+
