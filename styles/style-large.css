@@ -1,3 +1,17 @@
+#container-main{
+    width: 882px;
+}
+
 .package-container{
-    width: 800px;
+    width: 882px;
+    margin: auto;
+}
+
+.package-box{
+    width: 270px;
+}
+
+.package-content{
+    padding-left: 20px;
+    padding-right: 20px;
 }

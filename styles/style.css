@@ -166,9 +166,8 @@ display: table-cell;
     font-family: RobotoBold;
     color: #fff;
     font-size: 2.5em;
-    padding: 0;
     margin: 0;
-    padding-top: 15px;
+    padding: 15px 0 0;
 }
 
 .package-price-box .period{

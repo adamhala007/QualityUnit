@@ -4,3 +4,11 @@
     width: 1062px;
     margin: auto;
 }
+.package-box{
+    width: 330px;
+}
+
+.package-content{
+    padding-left: 50px;
+    padding-right: 50px;
+}
