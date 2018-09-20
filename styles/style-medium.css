@@ -1,3 +1,55 @@
-body {
-    /*background-color: yellow;*/
+#container-main{
+    width: 700px;
+    /*height: auto;*/
+
+}
+
+.package-container{
+    width: 700px;
+    margin: auto;
+
+}
+
+.package-box{
+    width: 700px;
+    margin: 20px 0;
+}
+
+.package-title{
+    font-size: 2.2em;
+}
+
+.package-content{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#container{
+
+    position: relative;
+
+
+
+}
+
+.package-content p{
+    font-size: 1.5em;
+}
+
+.package-cart-icon{
+    width: 40px;
+    height: 40px;
+    right: 55px;
+    bottom: 150px;
+}
+
+.package-price-box .price{
+    font-size: 3.5em;
+    padding: 25px 0 0;
+}
+
+.package-price-box .period{
+    font-size: 1.0em;
+    padding-top: 15px;
+    padding-bottom: 50px;
 }

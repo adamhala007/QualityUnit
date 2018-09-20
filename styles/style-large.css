@@ -9,9 +9,41 @@
 
 .package-box{
     width: 270px;
+    margin: 0 12px;
+}
+
+.package-title{
+    font-size: 1.2em;
 }
 
 .package-content{
     padding-left: 20px;
     padding-right: 20px;
+}
+
+#container{
+
+    position: absolute;
+}
+
+.package-content p{
+    font-size: 0.8em;
+}
+
+.package-cart-icon{
+    width: 20px;
+    height: 20px;
+    right: 25px;
+    bottom: 90px;
+}
+
+.package-price-box .price{
+    font-size: 2.5em;
+    padding: 15px 0 0;
+}
+
+.package-price-box .period{
+    font-size: 0.5em;
+    padding-top: 5px;
+    padding-bottom: 30px;
 }
