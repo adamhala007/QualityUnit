@@ -25,11 +25,7 @@
 }
 
 #container{
-
     position: relative;
-
-
-
 }
 
 .package-content p{
@@ -39,8 +35,9 @@
 .package-cart-icon{
     width: 40px;
     height: 40px;
+    padding: 20px;
     right: 55px;
-    bottom: 150px;
+    bottom: 145px;
 }
 
 .package-price-box .price{

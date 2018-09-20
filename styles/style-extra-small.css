@@ -1,0 +1,52 @@
+#container-main{
+    width: 400px;
+    /*height: auto;*/
+
+}
+
+.package-container{
+    width: 400px;
+    margin: auto;
+
+}
+
+.package-box{
+    width: 400px;
+    margin: 10px 0;
+}
+
+.package-title{
+    font-size: 2.2em;
+}
+
+.package-content{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#container{
+    position: relative;
+}
+
+.package-content p{
+    font-size: 1.5em;
+}
+
+.package-cart-icon{
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+    right: 55px;
+    bottom: 145px;
+}
+
+.package-price-box .price{
+    font-size: 3.5em;
+    padding: 25px 0 0;
+}
+
+.package-price-box .period{
+    font-size: 1.0em;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
