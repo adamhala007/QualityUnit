@@ -93,14 +93,17 @@ display: table-cell;
     border-bottom: 1px solid #e3e3e3;
     padding-bottom: 15px;
     padding-top: 5px;
-    float: left;
+
 }
 
 .package-icon{
+    display: block;
     width: 15%;
     margin: auto;
-    display: block;
+
+    fill: #168f77;
     padding: 15px;
+
 }
 
 .package-content{
@@ -119,28 +122,28 @@ display: table-cell;
 .package-price-box .package-fab{
 
 
-
 }
 
 
 
 .package-cart-icon{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     background-color: #168f77;
     border-radius: 50%;
-    box-shadow: 0 3px 5px 0 #4b4b4b;
+    box-shadow: -2px 6px 20px 0 rgba(0, 0, 0, 0.43); /*4b4b4b*/
     transition: all 0.1s ease-in-out;
     position: absolute;
-    right: 20px;
+    right: 25px;
     bottom: 90px;
-    padding: 10px;
+    padding: 15px;
     cursor: pointer;
+    fill: #ffffff;
 
 }
 
 .package-cart-icon:hover{
-    box-shadow: 0 3px 14px 0 #4b4b4b;
+    box-shadow: -2px 6px 27px 0 rgba(0, 0, 0, 0.43);
     transform: scale(1.05);
 }
 
@@ -176,4 +179,10 @@ display: table-cell;
     margin: 0;
     padding-bottom: 30px;
     opacity: 0.6;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    fill: lime;
 }
