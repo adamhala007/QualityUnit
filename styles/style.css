@@ -28,9 +28,9 @@
 }
 
 #container-main{
-    width: 1062px;
+    /*width: 1062px;*/
     height: 100%;
-    margin: auto;
+   /* margin: auto;*/
     display: table;
 }
 
@@ -48,65 +48,50 @@
     width: 100%;
     height: 100%;
     opacity: 0.07;
-
-
     position: absolute;
-
-
-
 }
 
 .package-container{
 display: table-cell;
     margin: auto;
     position: relative;
-    padding: 0px;
-
+    padding: 0;
     vertical-align: middle;
-
 }
 
 .package-box{
-
     margin: 0 12px;
     float: left;
     position: relative;
-
-    width: 330px;
-    /*width: 30%;*/
-
+    /*width: 330px;*/
     background: #ffffff;
     -webkit-box-shadow: 4px 8px 22px -8px rgba(0,0,0,0.75);
     -moz-box-shadow: 4px 8px 22px -8px rgba(0,0,0,0.75);
     box-shadow: 4px 8px 22px -8px rgba(0,0,0,0.75);
-
 }
 
 .package-title{
     width: 100%;
-    font-size: 1.2em;
+    /*font-size: 1.2em;*/
     font-family: RobotoLight;
     text-align: center;
     border-bottom: 1px solid #e3e3e3;
     padding-bottom: 15px;
     padding-top: 5px;
-
 }
 
 .package-icon{
     display: block;
     width: 15%;
     margin: auto;
-
     fill: #168f77;
     padding: 15px;
-
 }
 
 .package-content{
     padding-bottom: 25px;
-    padding-left: 70px;
-    padding-right: 70px;
+    /*padding-left: 70px;
+    padding-right: 70px;*/
 }
 
 .package-content p{
@@ -116,23 +101,16 @@ display: table-cell;
     color: #a8a8a8;
 }
 
-.package-price-box .package-fab{
-
-
-}
-
-
-
 .package-cart-icon{
-    width: 20px;
-    height: 20px;
+    /*width: 20px;
+    height: 20px;*/
     background-color: #168f77;
     border-radius: 50%;
     box-shadow: -2px 6px 20px 0 rgba(0, 0, 0, 0.43); /*4b4b4b*/
     transition: all 0.1s ease-in-out;
     position: absolute;
-    right: 25px;
-    bottom: 90px;
+    /*right: 25px;
+    bottom: 90px;*/
     padding: 15px;
     cursor: pointer;
     fill: #ffffff;
@@ -162,18 +140,18 @@ display: table-cell;
 .package-price-box .price{
     font-family: RobotoBold;
     color: #fff;
-    font-size: 2.5em;
+    /*font-size: 2.5em;*/
     margin: 0;
-    padding: 15px 0 0;
+    /*padding: 15px 0 0;*/
 }
 
 .package-price-box .period{
     font-family: RobotoThin;
     color: #fff;
-    font-size: 0.5em;
-    padding-top: 5px;
+    /*font-size: 0.5em;*/
+    /*padding-top: 5px;*/
     margin: 0;
-    padding-bottom: 30px;
+   /* padding-bottom: 30px;*/
     opacity: 0.6;
 }
 

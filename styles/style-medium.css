@@ -1,13 +1,11 @@
 #container-main{
     width: 700px;
-    /*height: auto;*/
-
+    margin: auto;
 }
 
 .package-container{
     width: 700px;
     margin: auto;
-
 }
 
 .package-box{
